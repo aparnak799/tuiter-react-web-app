@@ -280,14 +280,14 @@ p#id-selector-1 {
   
   .gradients-linear {
    background: linear-gradient(yellow, red);
-     width: 300px;
+     width: 200px;
      height: 200px;
   }
   
   .gradients-radial {
    background: radial-gradient(yellow, green);
    width: 200px;
-   height: 500px;
+   height: 200px;
   }
   
   .gradients-positioned {
