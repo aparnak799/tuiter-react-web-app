@@ -1,0 +1,22 @@
+:root {
+    --border-color: rgb(47,51,54);
+    --tab-highlight: rgb(29, 161,242);
+    --tab-no-highlight: rgb(110, 118, 125);
+  }
+  
+  * {
+    color: white;
+  }
+  body {
+    background-color: black;
+    margin-left: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-left: 2px solid var(--border-color);
+    border-right: 2px solid var(--border-color);
+    height: 100vh;
+  }
+  
+  a {
+    text-decoration: none;
+  }

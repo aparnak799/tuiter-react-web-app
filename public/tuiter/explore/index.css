@@ -1,0 +1,140 @@
+.wd-search {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .wd-search input {
+    background-color: darkgray;
+    border-radius: 16px;
+    border-style:none;
+    width: 95%;
+    height: 25px;
+    padding: 3px 9px;
+  }
+  
+  .wd-search>a{
+    margin-left: 12px;
+    display: inline-block;
+    transform: scale(2);
+    text-decoration: none;
+  }
+  
+  .wd-tabs {
+    display: flex;
+    border-bottom: 3px solid var(--tab-no-highlight);
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  
+  .wd-tabs span {
+    margin: 0px 5px;
+    font-size: 15px;
+    padding: 16px;
+  }
+  
+  .wd-tabs span:nth-of-type(1) {
+    color: var(--tab-highlight);
+    border-bottom: 5px solid var(--tab-highlight);
+  }
+  
+  .wd-tabs span {
+    color: var(--tab-no-highlight);
+  }
+  
+  .wd-horizontal-strip {
+    height: 10px;
+    margin-left: -16px;
+    margin-right: -16px;
+    background-color: #16181D;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 10px;
+  }
+  
+  .wd-suggestions-section-1 {
+    border-bottom: 1px solid var(--border-color);
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  
+  .wd-suggestions-section-1 > div {
+    margin-left: 16px;
+  }
+  
+  .wd-suggested-post {
+    margin-bottom: 10px;
+  }
+  
+  .wd-suggested-post > .wd-suggested-topic {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 16px; */
+  }
+  
+  .wd-suggested-post > .wd-suggested-topic > span, .wd-suggested-post > .wd-suggested-post-tweet-count{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+  }
+  
+  .wd-suggested-post > .wd-suggested-topic > span:nth-child(2){
+    margin-right: 16px;
+  }
+  
+  .wd-suggested-post > .wd-suggested-title {
+    font-size: 16px;
+    color: white;
+    display: block;
+    padding: 3px 0; 
+  }
+  
+  .wd-suggested-author-img {
+    height: 23px;
+    width: 26px;
+    border-radius: 50%;
+  }
+  .wd-suggested-title-author {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .wd-suggested-title-author span {
+    font-size: 14px;
+    color: rgb(110, 118, 125);
+    margin: 0 2px;
+  }
+  
+  .wd-suggested-title-author span:nth-of-type(1) {
+    font-size: 15px;
+    color: white;
+  }
+  
+  .wd-suggestion-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    margin-right: 16px;
+  }
+  
+  .wd-align-image-with-suggestion-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    margin-right: -16px;
+    margin-left: -16px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .wd-align-image-with-suggestion-box > div {
+    margin-left: 16px;
+  }
+  
+  
+  .wd-suggested-title-no-author span {
+    font-size: 14px;
+    color: rgb(110, 118, 125);
+  }
+  
+  .wd-suggestion-body {
+    margin-top: -10px;
+  }
+  
