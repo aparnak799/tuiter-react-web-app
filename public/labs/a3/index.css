@@ -279,13 +279,13 @@ p#id-selector-1 {
   }
   
   .gradients-linear {
-   background: linear-gradient(cyan, red);
+   background: linear-gradient(yellow, red);
      width: 300px;
      height: 200px;
   }
   
   .gradients-radial {
-   background: radial-gradient(red, pink);
+   background: radial-gradient(yellow, green);
    width: 200px;
    height: 500px;
   }
@@ -293,9 +293,9 @@ p#id-selector-1 {
   .gradients-positioned {
    background:
     radial-gradient(
-     at bottom right, pink, blue);
-   width: 250px;
-   height: 300px;
+     at top left, blue, red);
+   width: 200px;
+   height: 200px;
    color: white;
   }
   
