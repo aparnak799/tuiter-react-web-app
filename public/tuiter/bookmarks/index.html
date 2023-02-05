@@ -1,116 +1,144 @@
-.wd-bookmarks-title-div {
-    margin-top: 12px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--border-color);
-    margin-right: -16px;
-    margin-left: -16px;
-  }
-  
-  .wd-title {
-    display: block;
-    font-size: 20px;
-  }
-  
-  .wd-username {
-    font-size: 13px;
-    color: lightgray;
-  }
-  
-  .wd-username-main {
-    font-size: 15px;
-    color: lightgray;
-  }
-  
-  .wd-bookmarks-title-div > div{
-    margin-left: 16px;
-    margin-bottom: 12px;
-  }
-  .wd-bookmarks-title-div > span {
-    margin-right: 16px;
-  }
-  
-  .wd-bookmarked-tweet {
-    margin-top: 12px;
-    display: flex;
-    flex-direction: row;
-    margin-left: -16px;
-    margin-right: -16px;
-    border-bottom: 1px solid var(--border-color);
-  }
-  
-  .wd-bookmarked-tweet > * {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-  
-  .wd-tweet-avatar {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-  }
-  
-  .wd-tweet {
-    margin-left: 12px;
-  }
-  
-  .wd-tweet-info-actions {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .wd-tweet-info-actions > div > span {
-    font-size: 15px;
-  }
-  
-  .wd-tweet-main-content {
-    font-size: 15px;
-    max-width: 506px;
-    margin-bottom: 12px;
-  }
-  
-  .wd-tweet-content-img {
-    width: 504px;
-    height: 264px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  
-  .wd-tweet-content-img-heading {
-    display: inline-block;
-    margin-top: 12px;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 0 12px 12px 12px;
-  }
-  
-  .wd-tweet-content-img-desc {
-    display: inline-block;
-    font-size: 15px;
-    color: lightgray;
-    padding: 0 12px 12px 12px;
-  }
-  
-  .wd-tweet-content-section {
-    max-width: 506px;
-    border: 1px solid var(--border-color);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
-  .wd-action-items {
-    padding: 0 5px;
-    margin-top: 12px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 370px;
-    margin-bottom: 10px;
-  }
-  
-  .wd-icon-padding {
-    margin-right: 12px;
-  }
-  
-  .wd-colored-heart {
-    color: red;
-  }
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bookmarks</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../styles.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wd-bookmarks-title-div">
+    <div>
+      <span class="wd-title">Bookmarks</span>
+      <span class="wd-username">@WebDev</span>
+    </div>
+    <span>&hellip;</span>
+  </div>
+  <div class="wd-bookmarked-tweet">
+    <div><img src="https://pbs.twimg.com/profile_images/1510770649559547908/zd9t45gH_400x400.jpg"
+        class="wd-tweet-avatar" alt="avatar"></div>
+    <div class="wd-tweet">
+      <div class="wd-tweet-info-actions">
+        <div>
+          <span>ThePrimeagen</span>
+          <span class="wd-username">@ThePrimeagen · Oct 1</span>
+        </div>
+        <span>&hellip;</span>
+      </div>
+      <div class="wd-tweet-main-content"><span>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+          enim
+          labore culpa sint ad nisi Lorem
+          pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud
+          nostrud
+          ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
+          officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
+          cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+          eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
+          ullamco ut ea consectetur et est culpa et culpa duis.</span></div>
+      <div class="wd-tweet-content-section">
+        <img
+          src="https://images.unsplash.com/photo-1664574653790-cee0e10a4242?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+          class="wd-tweet-content-img">
+        <div>
+          <span class="wd-tweet-content-img-heading">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+            cupidatat.</span>
+          <span class="wd-tweet-content-img-desc">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+            cillum sint consectetur cupidatat.</span>
+        </div>
+      </div>
+      <div class="wd-action-items">
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding">&#128172;</span>
+            <span> 24 </span>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding">&#x2942</span>
+            <span> 23 </span>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding wd-colored-heart">&#9829;</span>
+            <span class="wd-colored-heart"> 58 </span>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding">&#8613;</span>
+            <span> 28 </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wd-bookmarked-tweet">
+    <div><img src="https://pbs.twimg.com/profile_images/1558488044541546496/F0kS6Z9p_400x400.jpg"
+        class="wd-tweet-avatar" alt="avatar"></div>
+    <div class="wd-tweet">
+      <div class="wd-tweet-info-actions">
+        <div>
+          <span>Annie</span>
+          <span class="wd-username">@soychotic · Aug 11</span>
+        </div>
+        <span>&hellip;</span>
+      </div>
+      <div class="wd-tweet-main-content"><span>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
+          enim
+          labore culpa sint ad nisi Lorem
+          pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud
+          nostrud
+          ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut
+          officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris
+          cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+          eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
+          ullamco ut ea consectetur et est culpa et culpa duis.</span></div>
+      <div class="wd-tweet-content-section">
+        <img
+          src="https://images.unsplash.com/photo-1567193729952-23830c0743ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80"
+          class="wd-tweet-content-img">
+        <div>
+          <span class="wd-tweet-content-img-heading">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+            cupidatat.</span>
+          <span class="wd-tweet-content-img-desc">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+            cillum sint consectetur cupidatat.</span>
+        </div>
+      </div>
+      <div class="wd-action-items">
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding">&#128172;</span>
+            <span> 19 </span>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding">&#x2942</span>
+            <span> 27 </span>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding wd-colored-heart">&#9829;</span>
+            <span class="wd-colored-heart"> 52 </span>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <span class="wd-icon-padding">&#8613;</span>
+            <span> 32 </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
