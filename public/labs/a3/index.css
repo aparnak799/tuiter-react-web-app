@@ -495,12 +495,14 @@ p#id-selector-1 {
   }
   
   @media (min-width: 500px) and (max-width: 1100px) {
-    .colored-heading {
-      background: red;
+   body {
+      background-color: red;
+      color: white;
     }
+    .media-query {
+      background-color: blue;
+      color: white;
   
-      .rotate-text {
-      transform: rotate(90deg) ;
     }
   
     
