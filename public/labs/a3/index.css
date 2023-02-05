@@ -491,14 +491,12 @@ p#id-selector-1 {
       background: red;
     }
   
-    .rotate-text {
-      transform: rotate(35deg) ;
-    }
+    
   }
   
   @media (min-width: 500px) and (max-width: 1100px) {
     .colored-heading {
-      background: blue;
+      background: red;
     }
   
       .rotate-text {
@@ -510,7 +508,7 @@ p#id-selector-1 {
   
   @media (min-width: 1100px) and (max-width: 1800px) {
     .colored-heading {
-      background: green;
+      background: blue;
     }
       .rotate-text {
       transform: rotate(180deg) ;
