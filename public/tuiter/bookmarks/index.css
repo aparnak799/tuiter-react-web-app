@@ -1,4 +1,4 @@
-.wd-bookmarks-title-div {
+.wd-bookmark-title {
     margin-top: 12px;
     display: flex;
     justify-content: space-between;
@@ -16,21 +16,8 @@
     font-size: 13px;
     color: lightgray;
   }
-  
-  .wd-username-main {
-    font-size: 15px;
-    color: lightgray;
-  }
-  
-  .wd-bookmarks-title-div > div{
-    margin-left: 16px;
-    margin-bottom: 12px;
-  }
-  .wd-bookmarks-title-div > span {
-    margin-right: 16px;
-  }
-  
-  .wd-bookmarked-tweet {
+
+  .wd-bookmarked {
     margin-top: 12px;
     display: flex;
     flex-direction: row;
@@ -39,14 +26,14 @@
     border-bottom: 1px solid var(--border-color);
   }
   
-  .wd-bookmarked-tweet > * {
+  .wd-bookmarked > * {
     margin-left: 16px;
     margin-right: 16px;
   }
   
-  .wd-tweet-avatar {
-    height: 48px;
-    width: 48px;
+  .wd-avatar {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
   }
   
@@ -54,29 +41,26 @@
     margin-left: 12px;
   }
   
-  .wd-tweet-info-actions {
+  .wd-actions {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .wd-tweet-info-actions > div > span {
     font-size: 15px;
   }
   
-  .wd-tweet-main-content {
+  .wd-main {
     font-size: 15px;
     max-width: 506px;
     margin-bottom: 12px;
   }
   
-  .wd-tweet-content-img {
+  .wd-tweet-image {
     width: 504px;
     height: 264px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
   
-  .wd-tweet-content-img-heading {
+  .wd-tweet-heading {
     display: inline-block;
     margin-top: 12px;
     font-size: 15px;
@@ -84,21 +68,21 @@
     padding: 0 12px 12px 12px;
   }
   
-  .wd-tweet-content-img-desc {
+  .wd-tweet-desc {
     display: inline-block;
     font-size: 15px;
     color: lightgray;
     padding: 0 12px 12px 12px;
   }
   
-  .wd-tweet-content-section {
+  .wd-tweet-section {
     max-width: 506px;
     border: 1px solid var(--border-color);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   }
   
-  .wd-action-items {
+  .wd-items {
     padding: 0 5px;
     margin-top: 12px;
     display: flex;
@@ -111,6 +95,6 @@
     margin-right: 12px;
   }
   
-  .wd-colored-heart {
+  .wd-heart-clicked {
     color: red;
   }
