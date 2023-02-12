@@ -5,120 +5,250 @@
   <title>Explore</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="../styles.css" rel="stylesheet">
-  <link href="index.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 </head>
 
-<body>
-  <div class="wd-search">
-    <input type="text" placeholder="Search Tuiter" />
-    <a href="explore-settings.html">
-      &#x2699;
-    </a>
-  </div>
-  <div class="wd-tabs">
-    <span>For you</span>
-    <span> Trending </span>
-    <span> COVID-19 </span>
-    <span> News </span>
-    <span> Sports </span>
-    <span> Entertainment </span>
-  </div>
-  <div class="wd-horizontal-strip"></div>
-  <div class="wd-suggests">
-    <div class="wd-suggest-post">
-      <div class="wd-suggest-topic">
-        <span>Trending in Science</span>
-        <span>&hellip;<span>
-      </div>
-      <span class="wd-suggest-title">Starship</span>
-      <span class="wd-suggest-post-tweet-count">55.5K Tweets</span>
+<body class="mt-3 d-flex flex-row">
+  <div id="left-navbar" class="mb-2">
+    <div id="left-navbar-div" class="wd-left-navbar">
+
+      <ul>
+        <li class="text-white fs-5"> <i class="fab fa-twitter"></i>
+        </li>
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-home wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Home</label>
+        </li>
+
+        <li class="text-white fs-5 py-2 wd-bold">
+          <i class="fas fa-hashtag wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Explore</label>
+        </li>
+
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-bell wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Notifications</label>
+        </li>
+
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-envelope wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Messages</label>
+        </li>
+
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-bookmark wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Bookmarks</label>
+        </li>
+
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-list wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Lists</label>
+        </li>
+
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-user wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">Profile</label>
+        </li>
+
+        <li class="text-white fs-5 py-2">
+          <i class="fas fa-ellipsis-h wd-mr-1"></i>
+          <label class="d-none d-xl-inline-block">More</label>
+        </li>
+      </ul>
+
+      <button type="button" class="w-100 btn btn-primary rounded-pill mt-2">Tweet</button>
     </div>
-    <div class="wd-suggest-post">
-      <div class="wd-suggest-topic">
-        <span>Sports · Trending</span>
-        <span>&hellip;<span>
+  </div>
+  <div id="main-content" class="mx-2">
+    <div class="mb-2">
+      <input type="text" class="wd-search-input" placeholder="Search Tuiter" />
+      <a href="explore-settings.html">
+        <i class="fa fa-cog fa-2x wd-text-white align-middle"
+          style="margin-left: 25px; background: black; color: #4E9ED1 !important;"></i>
+      </a>
+    </div>
+    <div>
+      <ul class="nav mb-2">
+        <li class="wd-nav-item">
+          <a class="nav-link wd-gray-text" href="for-you.html">For you</a>
+        </li>
+        <li class="wd-nav-item">
+          <a class="nav-link wd-gray-text" href="trending.html">Trending</a>
+        </li>
+        <li class="wd-nav-item">
+          <a class="nav-link wd-gray-text" href="news.html">News</a>
+        </li>
+        <li class="wd-nav-item">
+          <a class="nav-link wd-gray-text" href="sports.html">Sports</a>
+        </li>
+        <li class="wd-nav-item">
+          <a class="nav-link wd-selected" href="entertainment.html">Entertainment</a>
+        </li>
+
+      </ul>
+      <div class="wd-container">
+        <img class="wd-main-content-img" src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" />
+        <div class="wd-bottom-left wd-main-content-img-text">SpaceX's Starship</div>
       </div>
-      <span class="wd-suggest-title">Joe Rogan</span>
-      <span class="wd-suggest-post-tweet-count">1,423 Tweets</span>
+      <div class="d-flex p-2">
+        <div class="wd-flex-2">
+          <span class="d-block wd-gray-text">Web Development</span>
+          <span class="d-block">
+            <span class="wd-bold text-white">ReactJS</span>
+            <span class="wd-gray-text">- 2h </span>
+          </span>
+          <span class="wd-bold text-white">
+            React.js is a component based front end library that makes it very easy to build Single Page Applications or
+            SPAs.
+          </span>
+        </div>
+        <div class="wd-flex-1">
+          <img class="wd-suggestion-img rounded" src="https://www.svgrepo.com/show/327388/logo-react.svg"
+            alt="reactlogo" />
+        </div>
+      </div>
+      <div class="d-flex p-2">
+        <div class="wd-flex-2">
+          <span class="d-block">
+            <span class="wd-bold text-white">JavaScript</span>
+            <span class="wd-gray-text">- 2h </span>
+          </span>
+          <span class="wd-bold text-white">
+            JavaScript is a programming language that can run on browsers as well as desktops
+          </span>
+          <span class="wd-gray-text d-block">123K Tweets</span>
+        </div>
+        <div class="wd-flex-1">
+          <img class="wd-suggestion-img rounded"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" />
+        </div>
+
+      </div>
+      <div class="d-flex p-2">
+        <div class="wd-flex-2">
+          <span class="d-block wd-gray-text">Web Development</span>
+          <span class="d-block">
+            <span class="wd-bold text-white">JQuery</span>
+            <span class="wd-gray-text">- 2h </span>
+          </span>
+          <span class="wd-gray-text">
+            123K Tweets
+          </span>
+        </div>
+        <div class="wd-flex-1">
+          <img class="wd-suggestion-img rounded"
+            src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png" />
+        </div>
+
+      </div>
+
+      <div class="d-flex p-2">
+        <div class="wd-flex-2">
+          <span class="d-block wd-gray-text">Web Development</span>
+          <span class="d-block">
+            <span class="wd-bold text-white">NodeJS</span>
+            <span class="wd-gray-text">- 2h </span>
+          </span>
+          <span class="wd-gray-text">
+            123K Tweets
+          </span>
+        </div>
+        <div class="wd-flex-1">
+          <img class="wd-suggestion-img rounded"
+            src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" />
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div id="follow-suggestions" class="d-none d-md-block">
+    <div class="w-auto wd-rounded-corners bg-dark">
+      <div class="py-2 px-3 wd-bold text-white fs-4">
+        Who to follow
+      </div>
+
+      <div class="px-2 py-1">
+        <span class="d-flex my-3">
+          <div class="wd-flex-1">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1024px-Java_programming_language_logo.svg.png"
+              class="wd-avatar-img rounded-circle bg-white" />
+          </div>
+          <div class="d-flex flex-column ml-4 wd-flex-2">
+            <span class="wd-bold text-white">Java</span>
+            <span class="wd-gray-text">@java</span>
+          </div>
+          <button type="button" class="wd-follow-button wd-flex-1 btn btn-light rounded-pill"><span
+              class="text-black wd-bold">Follow</span></button>
+        </span>
+
+      </div>
+      <div class="px-2 py-1">
+        <span class="d-flex my-3">
+          <div class="wd-flex-1">
+            <img
+              src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy"
+              class="wd-avatar-img rounded-circle" />
+          </div>
+          <div class="d-flex flex-column ml-4 wd-flex-2">
+            <span class="wd-bold text-white">Relativity Space</span>
+            <span class="wd-gray-text">@relativityspace</span>
+          </div>
+          <button type="button" class="wd-follow-button wd-flex-1 btn btn-light rounded-pill"><span
+              class="text-black wd-bold">Follow</span></button>
+        </span>
+
+      </div>
+      <div class="px-2 py-1">
+        <span class="d-flex my-3">
+          <div class="wd-flex-1">
+            <img
+              src="https://play-lh.googleusercontent.com/mt0xEz5iyNO0HYXjX7aXSVcS1r0lGl-FQN2ipMEDyuRJVbHM7zx98kN8tXj-wykP4-E"
+              class="wd-avatar-img rounded-circle" />
+          </div>
+          <div class="d-flex flex-column ml-4 wd-flex-2">
+            <span class="wd-bold text-white">Virgin Galactic</span>
+            <span class="wd-gray-text">@virgingalactic</span>
+          </div>
+          <button type="button" class="wd-follow-button wd-flex-1 btn btn-light rounded-pill"><span
+              class="text-black wd-bold">Follow</span></button>
+        </span>
+      </div>
+      <div class="px-2 py-1">
+        <span class="d-flex my-3">
+          <div class="wd-flex-1">
+            <img src="https://i.pinimg.com/originals/dd/f5/0e/ddf50e1451baf41d1aa01947fe9452bd.jpg"
+              class="wd-avatar-img rounded-circle" />
+          </div>
+          <div class="d-flex flex-column ml-4 wd-flex-2">
+            <span class="wd-bold text-white">NASA</span>
+            <span class="wd-gray-text">@NASA</span>
+          </div>
+          <button type="button" class="wd-follow-button wd-flex-1 btn btn-light rounded-pill"><span
+              class="text-black wd-bold">Follow</span></button>
+        </span>
+      </div>
+      <div class="px-2 py-1">
+        <span class="d-flex my-3">
+          <div class="wd-flex-1">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/800px-Tesla_T_symbol.svg.png"
+              class="wd-avatar-img rounded-circle" />
+          </div>
+          <div class="d-flex flex-column ml-4 wd-flex-2">
+            <span class="wd-bold text-white">Tesla</span>
+            <span class="wd-gray-text">@Tesla</span>
+          </div>
+          <button type="button" class="wd-follow-button wd-flex-1 btn btn-light rounded-pill"><span
+              class="text-black wd-bold">Follow</span></button>
+        </span>
+      </div>
     </div>
 
-    <div class="wd-suggest-post">
-      <div class="wd-suggest-topic">
-        <span>Entertainment · Trending</span>
-        <span>&hellip;<span>
-      </div>
-      <span class="wd-suggest-title">Wednesday</span>
-      <span class="wd-suggest-post-tweet-count">1.5M Tweets</span>
-    </div>
-
-  </div>
-  <div class="wd-suggests-author">
-    <div class="wd-align">
-      <div>
-        <div class="wd-suggest-title-author">
-          <span><img src="https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_400x400.png"
-              class="wd-suggest-author-img" alt="thumbnail"></span>
-          <span>
-            <span>The New York Times</span>
-            <span class="wd-suggest-timestamp"> · Yesterday </span>
-        </div>
-        <div class="wd-suggest-body">
-          <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-        </div>
-      </div>
-      <div>
-        <img class="wd-suggest-image"
-          src="https://nypost.com/wp-content/uploads/sites/2/2022/06/cnn-dialing-back-breaking-news-banner-comp-1.jpg?quality=75&strip=all&w=1024"
-          alt="placeholder-image">
-      </div>
-    </div>
-  </div>
-  <div class="wd-suggests-author">
-    <div class="wd-align">
-      <div>
-        <div class="wd-suggest-title-author">
-          <span><img src="https://pbs.twimg.com/profile_images/991818020233404416/alrBF_dr_400x400.jpg"
-              class="wd-suggest-author-img" alt="thumbnail"></span>
-          <span style="margin-bottom: 20px;">
-            <span>Bloomberg Opinion</span>
-            <span class="wd-suggest-timestamp"> · Today </span>
-        </div>
-        <div class="wd-suggest-body">
-          <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-        </div>
-      </div>
-      <div>
-        <img class="wd-suggest-image"
-          src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVSaQMKdAd1o/v0/piHJkQ_WoLj1E/-999x-999.gif"
-          alt="placeholder-image">
-      </div>
-    </div>
-  </div>
-  <div class="wd-suggests-no-author">
-    <div class="wd-align">
-      <div>
-        <div class="wd-suggest-title-no-author">
-          <span>COVID-19</span>
-        </div>
-        <div class="wd-suggest-body">
-          <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-        </div>
-      </div>
-      <div>
-        <img class="wd-suggest-image"
-          src="https://www.cdc.gov/dotw/covid-19/images/main_928px.jpg"
-          alt="placeholder-image">
-      </div>
-    </div>
-  </div>
-  <div class="wd-suggest-post">
-    <div class="wd-suggest-topic">
-      <span>Trending in United States</span>
-      <span>&hellip;<span>
-    </div>
-    <span class="wd-suggest-title">Sara Lee</span>
-    <span class="wd-suggest-post-tweet-count">2K Tweets</span>
   </div>
 </body>
 
