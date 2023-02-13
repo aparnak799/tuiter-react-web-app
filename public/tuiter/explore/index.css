@@ -46,7 +46,7 @@ ul {
   flex: 2;
 }
 
-.wd-follow-button {
+.wd-follow {
   height: 35px;
   width:10px;
 }
@@ -92,9 +92,6 @@ ul {
   font-weight: bold;
 }
 
-/* #main-content {
-  border: 1px solid #E2E2E2;
-} */
 
 .wd-suggestion-img{
   height: 60px;
