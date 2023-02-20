@@ -12,11 +12,11 @@ const posts = [
     cardDesc:
       "From training to launching to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...",
     cardLink: "netflix.com",
-    numberOfLikes: "100K",
-    numberOfReposts: "5K",
-    numberOfComments: "42.9K",
+    numberOfLikes: "37.5K",
+    numberOfReposts: "3.5K",
+    numberOfComments: "4.2K",
     avatarIcon:
-      "https://image.cnbcfm.com/api/v1/image/107083077-1656593419933-gettyimages-1395062617-t_w16437_4934a878-972d-4bea-b6ef-b61f4ceeb787.jpeg?v=1665592117&w=929&h=523",
+      "https://pbs.twimg.com/media/FAWRiSrUcAQgmYY.jpg",
   },
   {
     userName: "New York Post",
@@ -27,11 +27,11 @@ const posts = [
     cardTitle: "",
     cardDesc: "",
     cardLink: "",
-    numberOfLikes: "234K",
-    numberOfReposts: "23K",
-    numberOfComments: "12.3K",
+    numberOfLikes: "4K",
+    numberOfReposts: "2.4K",
+    numberOfComments: "965K",
     avatarIcon:
-      "https://image.cnbcfm.com/api/v1/image/107083077-1656593419933-gettyimages-1395062617-t_w16437_4934a878-972d-4bea-b6ef-b61f4ceeb787.jpeg?v=1665592117&w=929&h=523",
+      "https://pbs.twimg.com/profile_images/966372680306868224/60wfGe9e_400x400.jpg",
   },
 ];
 

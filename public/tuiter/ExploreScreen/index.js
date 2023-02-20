@@ -12,7 +12,7 @@ const ExploreComponent = () => {
            <ul class="nav mb-2">
                       <!-- tabs -->
                       <li class="wd-nav-item">
-                      <a class="nav-link wd-gray-text" href="for-you.html">For you</a>
+                      <a class="nav-link wd-selected" href="for-you.html">For you</a>
                     </li>
                     <li class="wd-nav-item">
                       <a class="nav-link wd-gray-text" href="trending.html">Trending</a>
@@ -24,7 +24,7 @@ const ExploreComponent = () => {
                       <a class="nav-link wd-gray-text" href="sports.html">Sports</a>
                     </li>
                     <li class="wd-nav-item">
-                      <a class="nav-link wd-selected" href="entertainment.html">Entertainment</a>
+                      <a class="nav-link wd-gray-text" href="entertainment.html">Entertainment</a>
                     </li>
            </ul>
            <!-- image with overlaid text -->
