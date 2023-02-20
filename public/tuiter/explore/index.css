@@ -1,5 +1,5 @@
 body {
-  background-color: black !important;
+  background-color: black;
 
 }
 
@@ -46,7 +46,7 @@ ul {
   flex: 2;
 }
 
-.wd-follow {
+.wd-follow-button {
   height: 35px;
   width:10px;
 }
@@ -92,7 +92,6 @@ ul {
   font-weight: bold;
 }
 
-
 .wd-suggestion-img{
   height: 60px;
   width: 60px;
@@ -126,6 +125,40 @@ ul {
   margin-right: 7px;
 }
 
+.wd-suggestions-bg {
+  background: #222222;
+}
+
+.wd-margin-left {
+  margin-left: 10px;
+}
+
+.wd-margin-right {
+  margin-right: 10px;
+}
+
+.wd-margin-top{
+  margin-top: 10px;
+}
+
+.wd-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.wd-post-image {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wd-hyperlink-grey {
+  color: rgb(110, 118, 125);
+  text-decoration: none;
+}
+
+.wd-negative-margin-left {
+  margin-left: -5px;
+}
+
 @media (max-width: 1200px){
   .wd-left-navbar {
     width: 25%;
@@ -139,4 +172,8 @@ ul {
 
     width: auto;
   }
+}
+
+.wd-tuiter-color {
+  color: #4E9ED1;
 }
