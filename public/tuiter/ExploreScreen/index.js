@@ -9,7 +9,7 @@ const ExploreComponent = () => {
                        <i class="fa fa-cog fa-2x wd-text-white align-middle" style="margin-left: 25px; background: black; color: #4E9ED1 !important;"></i> 
                       </a>
            </div>
-           <ul class="nav mb-2">
+           <ul class="nav mb-2 border-bottom border-light">
                       <!-- tabs -->
                       <li class="wd-nav-item">
                       <a class="nav-link wd-selected" href="for-you.html">For you</a>

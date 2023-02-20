@@ -6,7 +6,7 @@ function homeComponent() {
   $("#wd-home").append(`
         <!-- <h2>Explore</h2> -->
         <div class="row mt-2">
-        <div class="col-2 col-md-2 col-lg-1 col-xl-2">
+        <div class="col-2 col-md-2 col-lg-1 col-xl-2 border-bottom">
          <!-- <h3>NavigationSidebar</h3> -->
          ${NavigationSidebar("Home")}
         </div>

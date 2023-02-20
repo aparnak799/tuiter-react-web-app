@@ -1,6 +1,6 @@
 function PostSummaryItem(item) {
     return `
-    <div class="d-flex p-2">
+    <div  style="border-bottom: 1px solid lightgrey !important;" class="d-flex p-2 border border-light">
     <div class="wd-flex-2">
     ${item.topic ? `<span class="d-block wd-gray-text">${item.topic}</span>` : ""}
       <span class="d-block">

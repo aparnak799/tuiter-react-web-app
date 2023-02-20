@@ -1,7 +1,7 @@
 const PostItem = (post) => {
     return `
-    <div class="d-flex p-2">
-      <div >
+    <div class="d-flex p-2 border-bottom border-light">
+      <div>
           <img
               src=${post.avatarIcon}
               class="wd-avatar-img rounded-circle" />
@@ -15,8 +15,8 @@ const PostItem = (post) => {
           </span>
           <p>${post.body}</p>
        
-          <div class="row border-thin border-grey border-solid" >
-          <img src=${post.image} class="wd-post-image pt-1 pb-1"/>
+          <div class="row border border-light rounded" >
+          <img src=${post.image} class="border-bottom border-light wd-post-image pt-1 pb-1"/>
           <div class="wd-text-bold wd-font-color-white">
           ${post.cardTitle}
           </div>
