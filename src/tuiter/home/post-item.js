@@ -19,7 +19,7 @@ const PostItem = ({
   },
 }) => {
   return (
-    <div className="d-flex p-2">
+    <div className="d-flex p-2 border rounded">
       <div>
         <img
           src={`${post.avatarIcon}`}
