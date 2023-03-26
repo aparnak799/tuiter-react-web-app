@@ -1,0 +1,74 @@
+.wd-pointer {
+    cursor: pointer;
+}
+.wd-name-display {
+    padding: 0 10px 0 10px;
+}
+
+.wd-tweets-count {
+    color: gray;
+    font-size: 13px;
+}
+
+.wd-profile-pic {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 10px white solid;
+    margin-top: -35px;
+}
+
+.wd-profile-pic-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-edit-profile-button {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    height: 30px;
+    font-weight: bold;
+    border: 1px gray solid;
+}
+
+
+.wd-gray-text {
+    color:gray;
+}
+
+.wd-profile-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wd-profile-bio {
+    margin-top: 10px;
+}
+
+.wd-font-sm {
+    font-size: 15px;
+}
+
+.wd-margin-top {
+    margin-top: 12px;
+}
+
+.wd-save {
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 23px;
+    padding: -5px 10px -5px 10px;
+}
+
+.wd-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-curved-border{
+    border-radius: 5px;
+    border: 1px gray solid;
+}
