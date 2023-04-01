@@ -1,30 +1,51 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { toggleTuitLike } from "./tuits-reducer";
-const TuitStats = ({ liked, replies, retuits, likes, tuitId }) => {
+import { updateTuitThunk } from "../../services/tuits-thunks";
+const TuitStats = ({ tuit }) => {
   const dispatch = useDispatch();
   return (
-    <div className="row wd-margin-top">
+    <div className="d-flex wd-margin-top">
       <div className="col-3 wd-hyperlink-grey wd-navbar wd-cursor-pointer">
         <i className="bi bi-chat-fill wd-margin-right"></i>
-        {replies}
+        {tuit.replies}
       </div>
       <div className="col-3 wd-hyperlink-grey wd-navbar wd-cursor-pointer">
         <i className="bi bi-arrow-up-left-square wd-margin-right"></i>
-        {retuits}
+        {tuit.retuits}
       </div>
       <div
         onClick={() => {
-          dispatch(toggleTuitLike({ tuitId }));
+          dispatch(
+            updateTuitThunk({
+              ...tuit,
+              likes: tuit.likes + 1,
+            })
+          );
         }}
         className="col-3 wd-hyperlink-grey wd-navbar wd-cursor-pointer"
       >
         <i
           className={`bi bi-heart wd-icon wd-margin-right ${
-            liked ? "wd-liked" : ""
+            tuit.liked ? "wd-liked" : ""
           }`}
         ></i>
-        {likes}
+        {tuit.likes}
+      </div>
+      <div
+        onClick={() => {
+          dispatch(
+            updateTuitThunk({
+              ...tuit,
+              dislikes: tuit.dislikes + 1,
+            })
+          );
+        }}
+        className="col-3 wd-hyperlink-grey wd-navbar wd-cursor-pointer"
+      >
+        <i
+          className={`bi bi-hand-thumbs-down-fill wd-icon wd-margin-right`}
+        ></i>
+        {tuit.dislikes}
       </div>
       <div className="col-3 wd-hyperlink-grey wd-navbar wd-cursor-pointer">
         <i className="bi bi-box-arrow-up wd-icon wd-margin-right"></i>
