@@ -12,7 +12,7 @@ const TuitItem = ({ post }) => {
     <li className="list-group-item d-flex">
       <div className="wd-image-div-border">
         <img
-          src={`${post.image}`}
+          src={`${post.image || 'https://thumbs.dreamstime.com/b/profile-picture-smiling-indian-female-employee-profile-picture-smiling-millennial-indian-female-employee-posing-office-198022033.jpg'}`}
           className="wd-avatar-img rounded-circle "
           alt="avatar"
         />
@@ -20,7 +20,7 @@ const TuitItem = ({ post }) => {
       <div className="row w-100">
         <div className="col-10">
           <div>
-            {post.userName} {post.handle} . {post.time}
+            {post.username || "Aparna Krishnan"} {post.handle || "@aparna"} . {post.time || "2h"}
           </div>
           <div>{post.tuit}</div>
         </div>
